@@ -73,9 +73,7 @@ namespace binary_search_tree
 
       // if value is less than root
       // search to the left
-        // 
       // else search to the right
-        //
 
       Node currentParent;
 
@@ -113,8 +111,6 @@ namespace binary_search_tree
           else return false;
         }
       }
-
-      return false;
     }
 
   }
